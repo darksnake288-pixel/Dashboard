@@ -6,9 +6,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <div class="flex h-screen">
+    <div class="flex min-h-screen">
   <!--Navbar -->
-  <div class="w-full">
+  <div class="w-full min-w-0 pb-12">
   <div class="flex h-14 w-full items-center justify-between border-b border-slate-200 px-4 font-semibold sm:px-12">
     <span class="flex items-center gap-1">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
@@ -17,7 +17,7 @@
 
       Dashboard
     </span>
-    <nav class="gap-8 text-sm text-slate-500 sm:flex">
+    <nav class="hidden gap-8 text-sm text-slate-500 sm:flex">
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
@@ -29,14 +29,14 @@
       </svg>
     </button>
   </div>
-  <div class="p-8">
+  <div class="p-4 sm:p-8">
     <!--Content -->
     <h1 class="text-2xl font-semibold tracking-wide">Recent Content</h1>
   </div>
   <!-- Cards -->
-  <div class="mt-12 ml-8 mr-8 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+  <div class="mt-6 sm:mt-12 mx-4 sm:mx-8 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
     <!--Card 1 -->
-    <div class="min-w-64">
+    <div class="min-w-0">
       <div class="bg-slate-300 w-full rounded-xl h-36"></div>
       <h3 class="text-xl font-semibold mt-2">Tailwind css</h3>
       <p class="text-sm text-grey-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde optio vel dolorum harum voluptatem enim voluptas quae repudiandae consequatur! Maxime in suscipit nobis qui. Voluptas dolores eaque tempora delectus cumque!</p>
@@ -44,7 +44,7 @@
 
     </div>
      <!--Card 2 -->
-    <div class="min-w-64">
+    <div class="min-w-0">
       <div class="bg-slate-300 w-full rounded-xl h-36"></div>
       <h3 class="text-xl font-semibold mt-2">Tailwind css</h3>
       <p class="text-sm text-grey-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde optio vel dolorum harum voluptatem enim voluptas quae repudiandae consequatur! Maxime in suscipit nobis qui. Voluptas dolores eaque tempora delectus cumque!</p>
@@ -52,7 +52,7 @@
 
     </div>
      <!--Card 3 -->
-    <div class="min-w-64">
+    <div class="min-w-0">
       <div class="bg-slate-300 w-full rounded-xl h-36"></div>
       <h3 class="text-xl font-semibold mt-2">Tailwind css</h3>
       <p class="text-sm text-grey-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde optio vel dolorum harum voluptatem enim voluptas quae repudiandae consequatur! Maxime in suscipit nobis qui. Voluptas dolores eaque tempora delectus cumque!</p>
@@ -60,7 +60,7 @@
 
     </div>
      <!--Card 4 -->
-    <div class="min-w-64">
+    <div class="min-w-0">
       <div class="bg-slate-300 w-full rounded-xl h-36"></div>
       <h3 class="text-xl font-semibold mt-2">Tailwind css</h3>
       <p class="text-sm text-grey-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde optio vel dolorum harum voluptatem enim voluptas quae repudiandae consequatur! Maxime in suscipit nobis qui. Voluptas dolores eaque tempora delectus cumque!</p>
@@ -68,7 +68,7 @@
 
     </div>
      <!--Card 5 -->
-    <div class="min-w-64">
+    <div class="min-w-0">
       <div class="bg-slate-300 w-full rounded-xl h-36"></div>
       <h3 class="text-xl font-semibold mt-2">Tailwind css</h3>
       <p class="text-sm text-grey-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde optio vel dolorum harum voluptatem enim voluptas quae repudiandae consequatur! Maxime in suscipit nobis qui. Voluptas dolores eaque tempora delectus cumque!</p>
